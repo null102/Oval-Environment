@@ -18,11 +18,11 @@ var elements = [];
 var numElements = 114;
 var size = 40;
 var boundaryX, boundaryY;
-var boundary_radius = 200;
+var boundary_radius = 1080;
 
 // setting up canvas and generating elements
 function setup() {
-  createCanvas(480, 480);
+  createCanvas(1920, 1080);
   circle(width/2, height/2, boundary_radius*2);
   background(255);
   angleMode(DEGREES);
